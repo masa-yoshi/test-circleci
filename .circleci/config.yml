@@ -18,13 +18,13 @@ jobs:
       - run:
           name: Build
           command: mvn clean
-      - run:
-          name: Build
-          command: mvn compile
-      # Then run your tests!
-      - run:
-          name: Test
-          command: mvn test
+      # - run:
+      #     name: Build
+      #     command: mvn compile
+      # # Then run your tests!
+      # - run:
+      #     name: Test
+      #     command: mvn test
 
 workflows:
   # Below is the definition of your workflow.
